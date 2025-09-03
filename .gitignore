@@ -1,0 +1,2 @@
+venv
+.env # it contain the use name or some api keys
