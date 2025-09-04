@@ -16,12 +16,22 @@ import sys
 import pandas as pd
 import numpy as np
 
+"""
+Define the comman constant variable for the training pipeline
+"""
+TARGET_COLUMN = "Result"
+PIPELINE_NAME:str = "NetworkData"
+ARTIFACT_DIR:str = "Artifacts"
+FILE_NAME:str = "phisingData.csv"
+TRAIN_FILE_NAME:str = "train.csv"
+TEST_FILE_NAME:str = "test.csv"
+
 """"
 Data Ingestion Related constant start with DATA_INGESTION VAR NAME
 . this are my constant variable names
 """
 DATA_INGESTION_COLLECTION_NAME:str = "NetworkData" 
-DATA_INGESTION_DATABASE_NAME:str = "Ajay"
+DATA_INGESTION_DATABASE_NAME:str = "AJAY"
 DATA_INGESTION_DIR_NAME:str = "data_ingestion"
 DATA_INGESTION_FEATURE_STRORE_DIR:str = "feature_store"
 DATA_INGESTION_INGESTED_DIR:str = "ingested"
