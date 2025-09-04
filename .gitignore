@@ -1,2 +1,4 @@
-venv
-.env # it contain the use name or some api keys
+venv/
+.env
+*.env
+__pycache__/
