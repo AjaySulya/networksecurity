@@ -2,8 +2,8 @@ from networksecurity.exception.exception import NetworkSecurityException
 from networksecurity.logging.logger import logging
 
 # configuration for data ingestion config
-from networksecurity.Entity.config_entity import DataIngestionConfig
-from networksecurity.Entity.artifact_entity import DataIngestionArtifact
+from networksecurity.entity.config_entity import DataIngestionConfig
+from networksecurity.entity.artifact_entity import DataIngestionArtifact
 # basic bibraries
 import os 
 import sys

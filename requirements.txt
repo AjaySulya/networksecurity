@@ -5,4 +5,5 @@ pymongo
 certifi
 pymongo[srv]==4.11
 scikit-learn
+pyaml
 # -e . add this at the last for for packaging okay , it refer to the setup.py file
