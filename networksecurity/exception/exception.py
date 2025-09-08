@@ -1,13 +1,16 @@
 import sys
 from networksecurity.logging import logger
-class NetworkSecurityException(Exception): # inharited from Exception class 
-    def __init__(self, message, sys_info=None):
-        super().__init__(str(message))
+class NetworkSecurityException(Exception):
+    def __init__(self, message, sys_obj: sys):
         self.message = str(message)
-        self.sys_info = sys_info
+        _, _, exc_tb = sys_obj.exc_info()
+        self.file_name = exc_tb.tb_frame.f_code.co_filename
+        self.line_no = exc_tb.tb_lineno
+        super().__init__(self.message)
 
-    def __str__(self): # This is overriding method in this class this not present in parent class
-        return "Error occured in python script name [{0}] line no [{1}] error message [{2}]".format() 
+    def __str__(self):
+        return f"Error occurred in script [{self.file_name}] at line [{self.line_no}] | Message: {self.message}"
+
     
     
 # if __name__ == "__main__":

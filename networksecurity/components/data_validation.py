@@ -2,7 +2,7 @@ from networksecurity.entity.artifact_entity import DataIngestionArtifact,DataVal
 from networksecurity.entity.config_entity import DataValidationConfig
 from networksecurity.constant.training_pipeline import SCHEMA_FILE_PATH
 from networksecurity.logging.logger import logging
-from networksecurity.utils.main_ulits.utils import read_yaml_file,write_yaml_file
+from networksecurity.utils.main_utils.utils import read_yaml_file,write_yaml_file
 from networksecurity.exception.exception import NetworkSecurityException
 from scipy.stats import ks_2samp # checking for datra drift
 import pandas  as pd
