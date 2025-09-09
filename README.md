@@ -451,6 +451,14 @@ copies of the Software.
 
 ## 🙌 Acknowledgments
 
+### 📊 **Live Experiment Tracking**
+
+Monitor all your ML experiments in real-time:
+
+🔗 **[DagsHub MLflow Dashboard](https://dagshub.com/AjaySulya/networksecurity.mlflow)** - View experiment runs, compare metrics, and track model performance
+
+🗂️ **[DagsHub Project Repository](https://dagshub.com/AjaySulya/networksecurity)** - Complete project with data versioning and collaboration tools
+
 ### 💡 Inspiration & Resources
 
 - **MLOps Community** - Best practices and architectural patterns
@@ -485,4 +493,4 @@ copies of the Software.
 
 ---
 
-*Last updated: Sptember 2025*
+*Last updated: January 2025*
